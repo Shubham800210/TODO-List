@@ -8,8 +8,8 @@
 }
 
 body{
-    
-    background-image: linear-gradient(to right, rgb(214, 173, 173),rgb(82, 82, 109));
+    background-image: linear-gradient(to right, rgb(255 60 60),rgb(86 86 234));
+    /* background-image: linear-gradient(to right, rgb(209, 24, 24),rgb(82, 82, 109)); */
 }
 .container{
     display: flex;
