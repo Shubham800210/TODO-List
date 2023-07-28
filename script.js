@@ -17,7 +17,6 @@ const addTodo = () => {
         //   Passing the original text to editLocalTodos function before edit it in the todoList
         editLocalTodos(editTodo.target.previousElementSibling.innerHTML);
         editTodo.target.previousElementSibling.innerHTML = inputText;
-      
         addBtn.value = "Add";
         inputbox.value = "";
     } else {
@@ -49,7 +48,7 @@ const addTodo = () => {
 
 const updateTodo = (e) => {
     if (e.target.innerHTML === "Delete") {
-        if (confirm("Are You Want to Delete This")) {
+        if (confirm("Are You Want to Delet")) {
             todoList.removeChild(e.target.parentElement);
             deleteLocalTodos(e.target.parentElement);
         } else {
